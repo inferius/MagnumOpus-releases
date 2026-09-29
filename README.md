@@ -16,7 +16,7 @@ GET of a static file.
 The builds are not code-signed yet, so Windows SmartScreen may show
 "Windows protected your PC" - click **More info -> Run anyway**.
 
-Support the development: see the "About" window in the app.
+Support the development: [Ko-fi](https://ko-fi.com/inferiusx) (voluntary, nothing is limited without it).
 
 ---
 
@@ -38,4 +38,4 @@ Sestavení zatím nejsou podepsaná certifikátem, takže Windows SmartScreen
 může ukázat „Systém Windows ochránil váš počítač“ - klikni na **Další
 informace -> Přesto spustit**.
 
-Podpora vývoje: viz okno „O aplikaci“ v programu.
+Podpora vývoje: [Ko-fi](https://ko-fi.com/inferiusx) (dobrovolně, bez příspěvku se nic neomezuje).
