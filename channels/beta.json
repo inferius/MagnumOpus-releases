@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0-beta.4",
+  "channel": "beta",
+  "published": "2026-09-29T17:10:56Z",
+  "min_version": "",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.4",
+  "notes": "### Nove\n- **Okno v klidu nekresli**: driv se prekreslovalo porad - 120 snimku za\n  sekundu i bez jedine zmeny, v klidu ~18 % jednoho jadra procesoru. Ted se\n  kresli jen pri zmene: vstup, vysledek z pozadi, animace (scroll, spinner,\n  prehravani) nebo termin (blikani kurzoru, tooltip po prodleve, mizeni\n  oznameni). Klidne okno ~0 % procesoru, i s blikajicim kurzorem v poli.\n  Zmena slozky zvenku, schranky nebo stavu aktualizace se ukaze hned i bez\n  pohybu mysi. Prekryv F12 ukazuje, kolik snimku se za posledni sekundu\n  opravdu vykreslilo (v klidu 0), a praci snimku v ms; driv v klidu zustaval\n  na posledni hodnote (120). Cekaci animace (spinner nacitani a velikosti\n  slozek, prubeh kopirovani, pulzujici nabidka) se kresli jen tak casto, jak\n  se meni (~12-30 snimku za sekundu misto 120) - i behem nacitani mene\n  procesoru.\n- **Pohyb mysi kresli jen pri zmene**: driv kazdy pohyb mysi nad oknem\n  kreslil 120 snimku za sekundu (~20 % jadra procesoru). Ted se kresli, jen\n  kdyz mys prejde na jiny radek, tlacitko nebo jiny prvek se zvyraznenim -\n  pohyb po radku nebo prazdnem miste ~0 %, rychly prejezd pres seznam ~1-2 %.\n  Tooltip tlacitka a souboru se ukaze u kurzoru a pak zustava ",
+  "package": {
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.4/MagnumOpus-0.1.0-beta.4.zip",
+    "size": 76164446,
+    "sha256": "631912c3aa3a982b13f21548f71b68a6b45f53333ac6c02839059c852846a57d"
+  }
+}
