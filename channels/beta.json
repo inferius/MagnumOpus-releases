@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.4",
+  "version": "0.1.0-beta.5",
   "channel": "beta",
-  "published": "2026-09-29T17:10:56Z",
+  "published": "2026-10-01T19:57:21Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.4",
-  "notes": "### Nove\n- **Okno v klidu nekresli**: driv se prekreslovalo porad - 120 snimku za\n  sekundu i bez jedine zmeny, v klidu ~18 % jednoho jadra procesoru. Ted se\n  kresli jen pri zmene: vstup, vysledek z pozadi, animace (scroll, spinner,\n  prehravani) nebo termin (blikani kurzoru, tooltip po prodleve, mizeni\n  oznameni). Klidne okno ~0 % procesoru, i s blikajicim kurzorem v poli.\n  Zmena slozky zvenku, schranky nebo stavu aktualizace se ukaze hned i bez\n  pohybu mysi. Prekryv F12 ukazuje, kolik snimku se za posledni sekundu\n  opravdu vykreslilo (v klidu 0), a praci snimku v ms; driv v klidu zustaval\n  na posledni hodnote (120). Cekaci animace (spinner nacitani a velikosti\n  slozek, prubeh kopirovani, pulzujici nabidka) se kresli jen tak casto, jak\n  se meni (~12-30 snimku za sekundu misto 120) - i behem nacitani mene\n  procesoru.\n- **Pohyb mysi kresli jen pri zmene**: driv kazdy pohyb mysi nad oknem\n  kreslil 120 snimku za sekundu (~20 % jadra procesoru). Ted se kresli, jen\n  kdyz mys prejde na jiny radek, tlacitko nebo jiny prvek se zvyraznenim -\n  pohyb po radku nebo prazdnem miste ~0 %, rychly prejezd pres seznam ~1-2 %.\n  Tooltip tlacitka a souboru se ukaze u kurzoru a pak zustava ",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.5",
+  "notes": "### Nove\n- **Novy prohlizec MagnumOpus View**: obrazky se z exploreru otviraji v\n  samostatnem rychlem prohlizeci `mo-view.exe` (nahrada CPix). Obraz je na\n  obrazovce zhruba 50-80 ms od spusteni (JPEG 24 MP; CPix 226 ms): okno se\n  ukaze hned, prvni snimek se kresli jeste pred nactenim grafiky a dalsi\n  obrazky ve slozce se pripravuji predem, takze sipka prepina okamzite.\n  Umi JPEG, PNG, GIF a APNG (animace), WebP, AVIF, HEIC z iPhonu (i\n  otoceni), JPEG XL, TIFF, BMP, PSD, SVG, OpenEXR, Radiance HDR, QOI a RAW z\n  fotaku (vlozeny nahled). HDR obrazky se prevedou na bezny jas. Ovladani:\n  sipky / PgUp / PgDn / mezernik prepinaji, kolecko priblizuje kolem\n  kurzoru, tazenim se posouva, 0 = prizpusobit oknu, 1 = 100 %, R otoci, B\n  prepne pozadi (tmave / svetle / sachovnice), Shift+B velikost ctverecku, I\n  informace, F / Enter / dvojklik cela obrazovka, Esc zavre. Lista s\n  tlacitky se ukaze pri pohybu mysi. V Nastaveni (Vzhled) jde vypnout\n  (obrazky pak otevre aplikace nastavena ve Windows) a kolecko jde prepnout\n  na prepinani obrazku.\n- **Prohlizec spravne barvy**: fotky s vlozenym barevnym profilem (iPhone\n  Display P3, Adobe RGB z fotaku, TIFF z grafickych programu) se v\n  p",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.4/MagnumOpus-0.1.0-beta.4.zip",
-    "size": 76164446,
-    "sha256": "631912c3aa3a982b13f21548f71b68a6b45f53333ac6c02839059c852846a57d"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.5/MagnumOpus-0.1.0-beta.5.zip",
+    "size": 83012119,
+    "sha256": "a341fddad3e79f517eb60576ef05feac93613e78e619ed61c5fdaf01e58b9778"
   }
 }
