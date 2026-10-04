@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.5",
+  "version": "0.1.0-beta.6",
   "channel": "beta",
-  "published": "2026-10-01T19:57:21Z",
+  "published": "2026-10-04T23:49:14Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.5",
-  "notes": "### Nove\n- **Novy prohlizec MagnumOpus View**: obrazky se z exploreru otviraji v\n  samostatnem rychlem prohlizeci `mo-view.exe` (nahrada CPix). Obraz je na\n  obrazovce zhruba 50-80 ms od spusteni (JPEG 24 MP; CPix 226 ms): okno se\n  ukaze hned, prvni snimek se kresli jeste pred nactenim grafiky a dalsi\n  obrazky ve slozce se pripravuji predem, takze sipka prepina okamzite.\n  Umi JPEG, PNG, GIF a APNG (animace), WebP, AVIF, HEIC z iPhonu (i\n  otoceni), JPEG XL, TIFF, BMP, PSD, SVG, OpenEXR, Radiance HDR, QOI a RAW z\n  fotaku (vlozeny nahled). HDR obrazky se prevedou na bezny jas. Ovladani:\n  sipky / PgUp / PgDn / mezernik prepinaji, kolecko priblizuje kolem\n  kurzoru, tazenim se posouva, 0 = prizpusobit oknu, 1 = 100 %, R otoci, B\n  prepne pozadi (tmave / svetle / sachovnice), Shift+B velikost ctverecku, I\n  informace, F / Enter / dvojklik cela obrazovka, Esc zavre. Lista s\n  tlacitky se ukaze pri pohybu mysi. V Nastaveni (Vzhled) jde vypnout\n  (obrazky pak otevre aplikace nastavena ve Windows) a kolecko jde prepnout\n  na prepinani obrazku.\n- **Prohlizec spravne barvy**: fotky s vlozenym barevnym profilem (iPhone\n  Display P3, Adobe RGB z fotaku, TIFF z grafickych programu) se v\n  p",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.6",
+  "notes": "### Nove\n- **[mo-view] Volitelny dotaz pred smazanim**: Delete v prohlizeci dal\n  posila soubor do kose bez dotazu (jde vratit a ukaze se oznameni). Kdo\n  chce dotaz, zapne ho v Nastaveni > Prohlizec (Ptat se pred presunem do\n  kose).\n- **[mo-view] Mensi videa (pod 720p) prevadi do obrazu grafika**: snimky\n  dekodovane procesorem (VP8, AV1, mensi H.264...) se dosud zvetsovaly\n  a prevadely na barvy na procesoru (swscale) a na grafiku sel hotovy obraz\n  velikosti okna (u 360x360 na celou obrazovku ~11 MB na snimek). Ted jdou\n  na grafiku jen puvodni roviny YUV (~190 KB) a zbytek udela shader:\n  spravne barvy podle videa (BT.709 se driv zobrazovalo s matici BT.601 -\n  posunute barvy), ostrejsi bikubicke zvetseni a proti presnemu prevodu\n  FFmpeg 1,5-6x mensi odchylka. Procesor stejne nebo mene, plynulost beze\n  zmeny. Formaty 4:2:0, 4:2:2, 4:4:4, 8 i 10 bitu, NV12, P010; ostatni\n  zustavaji na swscale. Stejnou cestou jde i HDR bez hardwaroveho\n  dekodovani (tone mapping uz nepocita procesor).\n- **Nahled videa v exploreru** (spolecne jadro): totez pro mensi videa.\n- **[mo-view] Otoceni videa**: tlacitka v horni liste (vedle sipek) nebo\n  R / Shift+R (jako u obrazku) otoci obraz o 90 s",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.5/MagnumOpus-0.1.0-beta.5.zip",
-    "size": 83012119,
-    "sha256": "a341fddad3e79f517eb60576ef05feac93613e78e619ed61c5fdaf01e58b9778"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.6/MagnumOpus-0.1.0-beta.6.zip",
+    "size": 83601151,
+    "sha256": "2cb46a16c6ae917444c876dcd94ea4bced63ca9a5d5ffed879e07f0bfb535ca6"
   }
 }
