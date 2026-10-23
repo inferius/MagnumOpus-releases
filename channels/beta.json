@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.6",
+  "version": "0.1.0-beta.7",
   "channel": "beta",
-  "published": "2026-10-04T23:49:14Z",
+  "published": "2026-10-23T11:12:01Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.6",
-  "notes": "### Nove\n- **[mo-view] Volitelny dotaz pred smazanim**: Delete v prohlizeci dal\n  posila soubor do kose bez dotazu (jde vratit a ukaze se oznameni). Kdo\n  chce dotaz, zapne ho v Nastaveni > Prohlizec (Ptat se pred presunem do\n  kose).\n- **[mo-view] Mensi videa (pod 720p) prevadi do obrazu grafika**: snimky\n  dekodovane procesorem (VP8, AV1, mensi H.264...) se dosud zvetsovaly\n  a prevadely na barvy na procesoru (swscale) a na grafiku sel hotovy obraz\n  velikosti okna (u 360x360 na celou obrazovku ~11 MB na snimek). Ted jdou\n  na grafiku jen puvodni roviny YUV (~190 KB) a zbytek udela shader:\n  spravne barvy podle videa (BT.709 se driv zobrazovalo s matici BT.601 -\n  posunute barvy), ostrejsi bikubicke zvetseni a proti presnemu prevodu\n  FFmpeg 1,5-6x mensi odchylka. Procesor stejne nebo mene, plynulost beze\n  zmeny. Formaty 4:2:0, 4:2:2, 4:4:4, 8 i 10 bitu, NV12, P010; ostatni\n  zustavaji na swscale. Stejnou cestou jde i HDR bez hardwaroveho\n  dekodovani (tone mapping uz nepocita procesor).\n- **Nahled videa v exploreru** (spolecne jadro): totez pro mensi videa.\n- **[mo-view] Otoceni videa**: tlacitka v horni liste (vedle sipek) nebo\n  R / Shift+R (jako u obrazku) otoci obraz o 90 s",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7",
+  "notes": "### Nove\n- **Aplikace - správa programů**: složka Aplikace místo zástupců z nabídky\n  Start vypisuje nainstalované programy - desktopové programy, aplikace\n  z Microsoft Storu i přenosné programy - s vydavatelem, verzí, datem\n  instalace, posledním použitím, zdrojem, architekturou a skutečnou velikostí\n  (program plus jeho data v AppData a ProgramData). Seskupené podle zdroje\n  a seřazené podle velikosti; filtry Vše / Desktop / Store / Nepoužívané\n  (6 měsíců), systémové součásti na požádání. Seznam se sám obnoví, když se\n  program nainstaluje nebo odstraní. Náhled ukazuje program podrobně\n  (velikost rozdělenou na program a data, složky, způsob odinstalace, podpis,\n  web) a na druhé záložce, co program přidal do Windows: položky po spuštění\n  (zapnete a vypnete je jako ve Správci úloh), služby, naplánované úlohy\n  a rozšíření Průzkumníka. Odinstalovat (Del, nabídka, náhled) vždy spustí\n  oficiální odinstalátor - víc programů jeden po druhém, tiše, kde to jde -\n  počká na něj a ověří, že je program opravdu pryč. Opravit / Změnit, kde to\n  instalátor nabízí. Povolit (UAC) spustí po jediném potvrzení UAC",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.6/MagnumOpus-0.1.0-beta.6.zip",
-    "size": 83601151,
-    "sha256": "2cb46a16c6ae917444c876dcd94ea4bced63ca9a5d5ffed879e07f0bfb535ca6"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7/MagnumOpus-0.1.0-beta.7.zip",
+    "size": 138370422,
+    "sha256": "6d271993371fe8c3a1612286ea0af352404193a40e48aa47c5d3c52443b7439c"
   }
 }
