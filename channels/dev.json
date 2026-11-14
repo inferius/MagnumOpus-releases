@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.7.dev.1",
+  "version": "0.1.0-beta.7.dev.2",
   "channel": "dev",
-  "published": "2026-11-06T17:56:57Z",
+  "published": "2026-11-14T09:28:42Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.1",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.2",
   "notes": "### Nove\n- **Aktualizace: kanál Vývojová**: v Nastavení → Pokročilé → Aktualizace přibyl vedle\n  Stabilní a Beta třetí kanál, který dostává i rozpracovaná sestavení mezi vydáními\n  (`0.1.0-beta.7.dev.N`). Může být nestabilní. Přepnutí zpět na Betu funguje – vývojová\n  sestavení jsou nad poslední betou a pod další, takže ta přijde sama. Beta a Stabilní\n  vývojová sestavení nikdy nenabídnou (klient po ověření podpisu hlídá i kanál manifestu).\n- **Porovnání složek: akce nad vybranými položkami**: označte soubory nebo složky\n  a zkopírujte jen je doprava nebo doleva, smažte je na jedné straně (i dvojice shodných nebo\n  odlišných souborů), vynechte je nebo je vraťte k automatické akci. Tři cesty: lišta\n  s počtem a velikostí výběru pod tabulkou, nabídka na pravé tlačítko (i Porovnat obsah\n  a Zobrazit ve složce) a klávesy (`Ctrl+←` / `Ctrl+→` = kopírovat tím směrem,\n  `Ctrl+Shift+←` / `Ctrl+Shift+→` = smazat na té straně). Kopírování a mazání nejdřív ukáže\n  náhled, co se stane, jen pro vybrané položky, a jde vrátit zpět.\n- **Porovnání složek: filtry Jen čas / Jiný obsah**: dva nové filtry vedle Rozdílů ukážou",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.1/MagnumOpus-0.1.0-beta.7.dev.1.zip",
-    "size": 143389783,
-    "sha256": "d814a1bcdf996b8936ee0bef063738858625af1d45f908bab2ab066df6bef0e1"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.2/MagnumOpus-0.1.0-beta.7.dev.2.zip",
+    "size": 144574168,
+    "sha256": "7c5e342180de805f886758a3087d57789eb5a5893b88ce3e3c21f3f982444cbf"
   }
 }
