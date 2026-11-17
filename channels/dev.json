@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.7.dev.3",
+  "version": "0.1.0-beta.7.dev.4",
   "channel": "dev",
-  "published": "2026-11-15T08:21:10Z",
+  "published": "2026-11-17T02:55:59Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.3",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.4",
   "notes": "### Nove\n- **Zástupci her ukážou složku hry**: zástupce `.url` na hru ze Steamu, Epic Games nebo GOG\n  (i spouštěcí `.lnk` GOG Galaxy) ukáže jako cíl složku hry na disku, stejně jako běžný\n  `.lnk` – klik složku otevře. Nainstalované hry ze Steamu (ve všech knihovnách), hry\n  přidané do Steamu ručně a hry z Epic Games Launcheru a GOG se najdou čtením dat samotných\n  spouštěčů na pozadí (nic se nespouští ani nemění). Hra, která není nainstalovaná nebo se\n  nenajde, ukáže „Steam: hra 620“ bez kliku.\n- **Aktualizace: kanál Vývojová**: v Nastavení → Pokročilé → Aktualizace přibyl vedle\n  Stabilní a Beta třetí kanál, který dostává i rozpracovaná sestavení mezi vydáními\n  (`0.1.0-beta.7.dev.N`). Může být nestabilní. Přepnutí zpět na Betu funguje – vývojová\n  sestavení jsou nad poslední betou a pod další, takže ta přijde sama. Beta a Stabilní\n  vývojová sestavení nikdy nenabídnou (klient po ověření podpisu hlídá i kanál manifestu).\n- **Porovnání složek: akce nad vybranými položkami**: označte soubory nebo složky\n  a zkopírujte jen je doprava nebo doleva, smažte je na jedné straně (i dvojice shodných nebo",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.3/MagnumOpus-0.1.0-beta.7.dev.3.zip",
-    "size": 144807219,
-    "sha256": "65ccc4438bdbbe4c47d1ccfea17fee508693a5cf5b76fd09f68ba27a7bda83de"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.4/MagnumOpus-0.1.0-beta.7.dev.4.zip",
+    "size": 145034690,
+    "sha256": "c36e89f160fccb0a6d85e82a78782c9e066f1f98b34fe7f6e33358c294e50af3"
   }
 }
