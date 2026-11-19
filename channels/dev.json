@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.7.dev.4",
+  "version": "0.1.0-beta.7.dev.5",
   "channel": "dev",
-  "published": "2026-11-17T02:55:59Z",
+  "published": "2026-11-19T16:46:15Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.4",
-  "notes": "### Nove\n- **Zástupci her ukážou složku hry**: zástupce `.url` na hru ze Steamu, Epic Games nebo GOG\n  (i spouštěcí `.lnk` GOG Galaxy) ukáže jako cíl složku hry na disku, stejně jako běžný\n  `.lnk` – klik složku otevře. Nainstalované hry ze Steamu (ve všech knihovnách), hry\n  přidané do Steamu ručně a hry z Epic Games Launcheru a GOG se najdou čtením dat samotných\n  spouštěčů na pozadí (nic se nespouští ani nemění). Hra, která není nainstalovaná nebo se\n  nenajde, ukáže „Steam: hra 620“ bez kliku.\n- **Aktualizace: kanál Vývojová**: v Nastavení → Pokročilé → Aktualizace přibyl vedle\n  Stabilní a Beta třetí kanál, který dostává i rozpracovaná sestavení mezi vydáními\n  (`0.1.0-beta.7.dev.N`). Může být nestabilní. Přepnutí zpět na Betu funguje – vývojová\n  sestavení jsou nad poslední betou a pod další, takže ta přijde sama. Beta a Stabilní\n  vývojová sestavení nikdy nenabídnou (klient po ověření podpisu hlídá i kanál manifestu).\n- **Porovnání složek: akce nad vybranými položkami**: označte soubory nebo složky\n  a zkopírujte jen je doprava nebo doleva, smažte je na jedné straně (i dvojice shodných nebo",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.5",
+  "notes": "### Nove\n- **Barevné ikony v nabídkách**: ikony v kontextové nabídce souborů a složek a v liště\n  tlačítek nad ní mají tlumené barvy (text zůstává neutrální). Nastavení -> Vzhled -> Ikony ->\n  Barvy ikon v nabídkách: **Podle sekce** (výchozí; každá položka má barvu své\n  role - otevření, schránka, připnutí, archiv, odkaz, nástroje, rozšíření shellu, štítky,\n  smazání - ve všech nabídkách stejnou), **Podle druhu akce** (stejná akce je všude stejně\n  barevná: navigace, schránka, záložky a štítky, archivy a vytváření, informace a nástroje,\n  destruktivní) nebo **Jednobarevné** (jako dosud, jen mazání je červené). Světlý a tmavý\n  motiv mají vlastní paletu. Ikony rozšíření shellu\n  (WinRAR, ESET, 7-Zip...) a řádek Barva / Štítky se nemění.\n- **Zástupci her ukážou složku hry**: zástupce `.url` na hru ze Steamu, Epic Games nebo GOG\n  (i spouštěcí `.lnk` GOG Galaxy) ukáže jako cíl složku hry na disku, stejně jako běžný\n  `.lnk` – klik složku otevře. Nainstalované hry ze Steamu (ve všech knihovnách), hry\n  přidané do Steamu ručně a hry z Epic Games Launcheru a GOG se najdou čtením dat samotných",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.4/MagnumOpus-0.1.0-beta.7.dev.4.zip",
-    "size": 145034690,
-    "sha256": "c36e89f160fccb0a6d85e82a78782c9e066f1f98b34fe7f6e33358c294e50af3"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.5/MagnumOpus-0.1.0-beta.7.dev.5.zip",
+    "size": 145102215,
+    "sha256": "7b4f75a1d3a51058770955c94f22551f55de3cb4ee760f7bd323c5e0b27d49e1"
   }
 }
