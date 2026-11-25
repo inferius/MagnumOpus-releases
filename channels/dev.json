@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.7.dev.6",
+  "version": "0.1.0-beta.7.dev.8",
   "channel": "dev",
-  "published": "2026-11-22T23:37:37Z",
+  "published": "2026-11-25T06:44:59Z",
   "min_version": "",
-  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.6",
-  "notes": "### Nove\n- **Barevné ikony v nabídkách**: ikony v kontextové nabídce souborů a složek a v liště\n  tlačítek nad ní mají tlumené barvy (text zůstává neutrální). Nastavení -> Vzhled -> Ikony ->\n  Barvy ikon v nabídkách: **Podle sekce** (výchozí; každá položka má barvu své\n  role - otevření, schránka, připnutí, archiv, odkaz, nástroje, rozšíření shellu, štítky,\n  smazání - ve všech nabídkách stejnou), **Podle druhu akce** (stejná akce je všude stejně\n  barevná: navigace, schránka, záložky a štítky, archivy a vytváření, informace a nástroje,\n  destruktivní) nebo **Jednobarevné** (jako dosud, jen mazání je červené). Světlý a tmavý\n  motiv mají vlastní paletu. Ikony rozšíření shellu\n  (WinRAR, ESET, 7-Zip...) a řádek Barva / Štítky se nemění.\n- **Zástupci her ukážou složku hry**: zástupce `.url` na hru ze Steamu, Epic Games nebo GOG\n  (i spouštěcí `.lnk` GOG Galaxy) ukáže jako cíl složku hry na disku, stejně jako běžný\n  `.lnk` – klik složku otevře. Nainstalované hry ze Steamu (ve všech knihovnách), hry\n  přidané do Steamu ručně a hry z Epic Games Launcheru a GOG se najdou čtením dat samotných",
+  "notes_url": "https://github.com/inferius/MagnumOpus-releases/releases/tag/v0.1.0-beta.7.dev.8",
+  "notes": "### Nove\n- **Panel podrobností po složkách**: zda je vidět panel podrobností (náhled), může být volbou\n  šablony složky (`[view] preview = true / false`) i jedné složky. Složka **Aplikace**\n  (`::Apps`) se otevře se zapnutým panelem; vypnutí či zapnutí v ní se pamatuje jen pro tuto\n  složku. V ostatních složkách panel funguje jako dřív (jedno globální nastavení) a přepínání\n  mezi složkami neztratí šířku panelu; globální nastavení se ukládá hned. Pořadí: vaše volba pro složku > šablona > globální\n  nastavení. Volbu složky nelze vrátit na „dědit“, jen přepínat zapnuto / vypnuto. Starší verze programu po návratu\n  soubor zámků složek (`folder_state.bin`, V8) neuloží: zámky z této relace neuvidí, data nesmaže.\n- **Přejmenování jen záložky**: v sekci Záložky v levém panelu položka nabídky\n  **Přejmenovat záložku** změní jen zobrazovaný název\n  (alias) - složka na disku se nepřejmenuje. Prázdný název vrátí název složky; tooltip\n  u přejmenované záložky ukáže skutečnou cestu. Alias je v `bookmarks.toml`.\n- **O aplikaci: odkaz na web**: sekce Odkazy v okně O aplikaci začíná řádkem",
   "package": {
-    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.6/MagnumOpus-0.1.0-beta.7.dev.6.zip",
-    "size": 145888987,
-    "sha256": "2540e6b0111eadfbd0f4df20d961791cf56f823265b673cf104d8a942421bc1d"
+    "url": "https://github.com/inferius/MagnumOpus-releases/releases/download/v0.1.0-beta.7.dev.8/MagnumOpus-0.1.0-beta.7.dev.8.zip",
+    "size": 146675496,
+    "sha256": "c1bbaf9a86072b5f41b9c0eb4311512fc97b1bbeedaee15d4e67c6ff9bb2c9b2"
   }
 }
